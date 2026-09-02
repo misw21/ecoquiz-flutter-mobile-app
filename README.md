@@ -90,7 +90,7 @@ graph TD
 
 ```text
 EcoQuiz-Flutter-Mobile-App/
-├── app/                                       # Complete Flutter Mobile Application Codebase
+├── app/                                       # Complete Flutter Mobile Application Codebase (this is v2)
 │   ├── lib/                                   # Clean Architecture Source Code
 │   │   ├── config/                            # App Routing & Theme Configurations
 │   │   │   ├── routes/                        # Application Named Routes
@@ -109,7 +109,8 @@ EcoQuiz-Flutter-Mobile-App/
 │   ├── assets/                                # Bundled Assets (Audio cues, Videos, JSON questions)
 │   ├── android/                               # Native Android Manifest & Gradle Configuration
 │   ├── ios/                                   # Native iOS Runner & Podfile Specifications
-│   └── pubspec.yaml                           # Flutter Dependencies & Asset Registrations
+├── apk/                                       # Android Application Packages
+│   └── v1.0.apk                               # Version 1.0 APK Release           (this is v1)               
 ├── assets/                                    # UI Screen Evidence & Captures
 │   └── screenshots/                           # High-Resolution Photographic Proof
 │       ├── v1/                                # Initial v1.0 & v1.1 Prototype Screens (12 captures)

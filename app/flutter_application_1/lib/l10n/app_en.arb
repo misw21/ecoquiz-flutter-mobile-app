@@ -1,0 +1,9 @@
+{
+    "loginScreen": "Login",
+    "email": "Email",
+    "enterEmail": "Enter your email",
+    "password": "Password",
+    "enterPassword": "Enter your password",
+    "validate": "This field is required",
+    "login": "Login"
+  }

@@ -1,0 +1,38 @@
+{
+  "@@last_modified": "2025-03-11T01:52:00.150822",
+  "loginScreen": "Login",
+  "@loginScreen": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "Email",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterEmail": "Enter your email",
+  "@enterEmail": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterPassword": "Enter your password",
+  "@enterPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "validate": "This field is required",
+  "@validate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "login": "Login",
+  "@login": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

@@ -1,0 +1,106 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: true
+    prefer_single_quotes: true
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_typing_uninitialized_variables: false
+    use_key_in_widget_constructors: true
+    use_build_context_synchronously: true
+    use_full_hex_values_for_flutter_colors: true
+    prefer_relative_imports: true
+    sort_child_properties_last: true
+    annotate_overrides: true
+    await_only_futures: true
+    avoid_relative_lib_imports: true
+    avoid_returning_null_for_void: true
+    avoid_unnecessary_containers: true
+    empty_catches: true
+    empty_constructor_bodies: true
+    empty_statements: true
+    no_leading_underscores_for_local_identifiers: false
+    no_logic_in_create_state: true
+    prefer_is_empty: false
+    prefer_const_constructors_in_immutables: true
+    prefer_const_declarations: true
+    avoid_init_to_null: true
+    prefer_final_fields: true
+    unnecessary_null_in_if_null_operators: true
+
+    # code organization
+    directives_ordering: true
+    package_prefixed_library_names: true
+    prefer_final_locals: true
+    prefer_final_parameters: false
+    sort_pub_dependencies: true
+
+    # performance
+    avoid_function_literals_in_foreach_calls: false
+    prefer_foreach: false
+    avoid_slow_async_io: true
+
+    # error prevention
+    avoid_catches_without_on_clauses: false
+    avoid_catching_errors: true
+    avoid_dynamic_calls: true
+    avoid_empty_else: true
+    avoid_type_to_string: true
+    cancel_subscriptions: true
+    close_sinks: true
+    collection_methods_unrelated_type: true
+    null_check_on_nullable_type_parameter: true
+    null_closures: true
+    throw_in_finally: true
+    unnecessary_null_aware_assignments: true
+    unnecessary_null_checks: true
+    unnecessary_nullable_for_final_variable_declarations: true
+
+    # formatting and readability rules
+    always_declare_return_types: true
+    always_put_control_body_on_new_line: false
+    always_put_required_named_parameters_first: true
+    avoid_redundant_argument_values: true
+    avoid_setters_without_getters: true
+    avoid_single_cascade_in_expression_statements: true
+    cascade_invocations: false
+    implementation_imports: true
+    join_return_with_assignment: false
+    leading_newlines_in_multiline_strings: true
+    lines_longer_than_80_chars: false
+    missing_whitespace_between_adjacent_strings: true
+    noop_primitive_operations: true
+    omit_local_variable_types: false
+    prefer_interpolation_to_compose_strings: true
+    unnecessary_lambdas: true
+    unnecessary_parenthesis: true
+    unnecessary_raw_strings: true
+    unnecessary_string_escapes: true
+    unnecessary_string_interpolations: true
+
+    # null safety
+    avoid_null_checks_in_equality_operators: true
+    do_not_use_environment: true
+    prefer_if_null_operators: true
+    prefer_null_aware_operators: true
+    use_if_null_to_convert_nulls_to_bools: true
+
+    # Widget specific rules
+    avoid_classes_with_only_static_members: false
+    sized_box_for_whitespace: true
+    sized_box_shrink_expand: true
+    use_decorated_box: true
+    use_named_constants: true
+    use_rethrow_when_possible: true
+    use_setters_to_change_properties: true
+    use_string_buffers: true
+    use_to_and_as_if_applicable: true
+
+dart_style:
+  indent_size: 2
+  column_limit: 100
+  always_use_single_line_getters: true
+  allow_trailing_comma: true
+  named_parameter_space: false
+  spaces_in_annotation: false
